@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kalavathi House Cleaning Services</title>
+  <header>
+  <h1>Kalavathi House Cleaning Services</h1>
+</header>
   <style>
     body {
       margin: 0;
@@ -44,6 +46,8 @@
       max-width: 1200px;
       margin: auto;
     }
+    
+
 
     .center-button {
       display: flex;
@@ -52,14 +56,21 @@
     }
 
     .center-button a {
-      background-color: #0288d1;
-      color: white;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      font-size: 1.2rem;
-      border-radius: 6px;
-      transition: background-color 0.3s;
-    }
+	  background-color: #0288d1;
+	  color: white;
+	  padding: 1rem 2rem;
+	  text-decoration: none;
+	  font-size: 1.2rem;
+	  border-radius: 6px;
+	  animation: blink 1s infinite;
+	  transition: background-color 0.3s;
+	}
+
+	@keyframes blink {
+	  0% { background-color: #0288d1; }
+	  50% { background-color: #ff4081; } /* pink highlight */
+	  100% { background-color: #0288d1; }
+	}
 
     .center-button a:hover {
       background-color: #01579b;
@@ -128,9 +139,7 @@
 </head>
 <body>
 
-  <header>
-    <h1>Kalavathi House Cleaning Services</h1>
-  </header>
+
 
   <nav>
     <a href="#home">Home</a>
@@ -140,7 +149,7 @@
   </nav>
 
   <section id="home">
-    <h2>Welcome to Kalavathi House Cleaning Services</h2>
+    <h2>Welcome to Kalavathi Cleaning Services</h2>
     <p>We offer professional, reliable, and affordable house cleaning solutions tailored to your needs. From regular clean-ups to deep sanitizing, we've got you covered.</p>
     
     <ul class="why-we">
@@ -152,7 +161,7 @@
     </ul>
 
     <div class="center-button">
-      <a href="https://www.google.com/maps?q=Kalavathi+House+Cleaning+Services" target="_blank">Book Cleaning</a>
+      <a href="tel:+919848781058">Book Cleaning</a>
     </div>
   </section>
 
@@ -160,23 +169,23 @@
     <h2>Our Services</h2>
     <div class="services">
       <div class="service-item">
-        <img src="https://via.placeholder.com/300x200?text=Regular+Cleaning" alt="Regular House Cleaning">
+        <img src="static/regular.webp" alt="Regular House Cleaning">
         <h3>Regular House Cleaning</h3>
       </div>
       <div class="service-item">
-        <img src="https://via.placeholder.com/300x200?text=Kitchen+and+Bathroom" alt="Kitchen and Bathroom Cleaning">
+        <img src="static/Kitchen.jpg" alt="Kitchen and Bathroom Cleaning">
         <h3>Kitchen and Bathroom Cleaning</h3>
       </div>
       <div class="service-item">
-        <img src="https://via.placeholder.com/300x200?text=Apartment+Cleaning" alt="Apartment Cleaning">
+        <img src="static/apartment.jpg" alt="Apartment Cleaning">
         <h3>Apartment Cleaning</h3>
       </div>
       <div class="service-item">
-        <img src="https://via.placeholder.com/300x200?text=Move-In+Cleaning" alt="New Home/Move-In Cleaning">
-        <h3>New Home / Move-In Cleaning</h3>
+        <img src="static/new_home.jpg" alt="New Home/Move-In Cleaning">
+        <h3>New Home/Move-In Cleaning</h3>
       </div>
       <div class="service-item">
-        <img src="https://via.placeholder.com/300x200?text=Villa+Cleaning" alt="Villas Cleaning">
+        <img src="static/Villas.jpg" alt="Villas Cleaning">
         <h3>Villa Cleaning</h3>
       </div>
     </div>
@@ -185,7 +194,7 @@
   <section id="about">
     <h2>About Us</h2>
     <div class="about-content">
-      <p>We are Kalavathi House Cleaning Services. We provide professional cleaning of homes, including tasks like dusting, vacuuming, mopping floors, cleaning bathrooms, kitchens, and other living spaces. These services can be scheduled regularly (weekly, bi-weekly, monthly) or as a one-time deep clean. The goal is to keep your home clean, tidy, and comfortable.</p>
+      <p>We are Kalavathi Cleaning Services. We provide professional cleaning of homes, including tasks like dusting, vacuuming, mopping floors, cleaning bathrooms, kitchens, and other living spaces. These services can be scheduled regularly (weekly, bi-weekly, monthly) or as a one-time deep clean. The goal is to keep your home clean, tidy, and comfortable.</p>
 
       <div class="buttons">
         <a href="tel:+919848781058">Call Us</a>
@@ -197,7 +206,12 @@
     <h2>Contact Us</h2>
     <div class="contact-info">
       <p><strong>Mobile:</strong> <a href="tel:+919848781058">9848781058</a></p>
-      <p><strong>Address:</strong> 123, Main Street, Your City, State, ZIP Code</p>
+      <p><strong>Address:</strong><br>
+        Plot No 95, Road No 4, Sai Brindhavan Colony Phase 2,<br>
+        Turkayamjal,<br>
+        Rangareddy,<br>
+        Telangana, 501510.
+      </p>
       <p><strong>Email:</strong> support@kalavathicleaning.com</p>
 
       <div class="buttons">
@@ -207,7 +221,7 @@
 
       <div style="margin-top: 1rem;">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609942662!2d72.74109897715637!3d19.08219783918507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce324cd6d2f7%3A0xf9bafcd733cbbe41!2sYour%20Location%20Name!5e0!3m2!1sen!2sin!4v1625593887964!5m2!1sen!2sin" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1522.5653763132956!2d78.579286!3d17.2702568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba1a23ff9c0a9%3A0xe530166ab9715dc3!2sKalavathi%20cleaning%20Service!5e0!3m2!1sen!2sin!4v1692604060401!5m2!1sen!2sin" 
           width="100%" 
           height="300" 
           style="border:0;" 
@@ -219,9 +233,8 @@
   </section>
 
   <footer>
-    &copy; 2025 Kalavathi House Cleaning Services. All rights reserved.
+    &copy; 2025 Kalavathi Cleaning Services. All rights reserved.
   </footer>
 
 </body>
 </html>
-
